@@ -74,5 +74,40 @@ namespace Life
         {
             gameOfLife.Interval = 2500;
         }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            gameOfLife.GridSize = 1;
+        }
+
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            gameOfLife.GridSize = 2;
+        }
+
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            gameOfLife.GridSize = 5;
+        }
+
+        private void toolStripMenuItem6_Click(object sender, EventArgs e)
+        {
+            gameOfLife.GridSize = 10;
+        }
+
+        private void toolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            gameOfLife.GridSize = 15;
+        }
+
+        private void toolStripMenuItem8_Click(object sender, EventArgs e)
+        {
+            gameOfLife.GridSize = 25;
+        }
+
+        private void toolStripMenuItem9_Click(object sender, EventArgs e)
+        {
+            gameOfLife.GridSize = 50;
+        }
     }
 }
